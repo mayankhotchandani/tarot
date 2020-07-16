@@ -42,7 +42,7 @@ var deck1 = [
   new card1(
     "The Chariot",
     `When the Tarot Chariot card refers to you as a person, it shows you being impressive and successful. You have the ability to get where you want to go. Remember that the trick to accomplish lasting success is to be modest about it, and that's not always easy.`,
-    "cha"
+    "ch"
   ),
   new card1(
     "Strength",

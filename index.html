@@ -103,12 +103,85 @@
         letter-spacing: 0.25em;
       }
     }
+    label {
+      font-size: 3em;
+      font-family: fantasy;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+      border: 1px solid rgb(250, 192, 2);
+      padding: 10px;
+      border-radius: 50px;
+      -webkit-text-fill-color: rgb(250, 192, 2);
+      -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+      transition: background-color 5000s ease-in-out 0s;
+    }
+    input[type="text"] {
+      -webkit-appearance: none;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      background-color: black;
+      color: rgb(250, 192, 2);
+      height: 3em;
+      width: 16em;
+    }
+    input[type="date"] {
+      -webkit-appearance: none;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      padding: 10px;
+      background-color: rgb(80, 21, 21);
+      color: rgb(250, 192, 2);
+      height: 3em;
+      width: 16em;
+    }
+    input[type="reset"] {
+      -webkit-appearance: none;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      background-color: black;
+      color: rgb(250, 192, 2);
+      height: 3em;
+      width: 6em;
+    }
+    input[type="submit"] {
+      -webkit-appearance: none;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      font-size: 1.2em;
+      font-family: fantasy;
+      background-color: rgb(114, 10, 10);
+      color: rgb(250, 192, 2);
+      height: 3em;
+      width: 10em;
+    }
+    select {
+      color: rgb(250, 192, 2);
+      background-color: black;
+      height: 4em;
+      width: 18em;
+      border-radius: 50px;
+      padding: 9px;
+      font-size: 1em;
+      font-family: fantasy;
+    }
   </style>
   <body>
     <div id="container">
       <img src="bg.png" alt="" height="100%" width="100%" />
     </div>
-    <form action="index.html">
+    <form action="index0.html">
       <label for="fname">Name</label>
       <input type="text" id="fname" name="fname" required /><br />
       <label for="birthday">Birthday:</label>
@@ -198,6 +271,8 @@
       <input type="reset" />
       <br />
       <input type="submit" value="Let's see ur luck" />
+      <br />
+      <br />
     </form>
   </body>
 

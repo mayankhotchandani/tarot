@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  text-align: center;
+  background-color: #180e0a;
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+
+  position: relative;
+  top: 0;
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+  color: white;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  padding-top: 10p;
+}
+
+#display {
+  width: 60vw;
+  min-height: 50vh;
+  margin: 0 auto;
+  background-image: radial-gradient(rgb(255, 217, 0), brown);
+  text-align: center;
+  padding: 1rem;
+}
+
+#display > img {
+  width: 25rem;
+  height: 50em;
+}
+
+#display > p {
+  font-size: 1.3rem;
+  color: aliceblue;
+}
+
+#draw {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 5vh auto;
+  background-image: radial-gradient(rgb(255, 217, 0), brown);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 0px;
+}
+
+#drawP {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin: 5vh auto;
+  margin-bottom: 0px;
+  background-image: radial-gradient(rgb(110, 107, 107), rgb(31, 30, 30), black);
+  color: rgb(245, 244, 243);
+  border-radius: 10px;
+  outline: none;
+}
+
+#displayP {
+  width: 60vw;
+  min-height: 50vh;
+  margin: 0 auto;
+  background-image: radial-gradient(
+    white,
+    rgb(110, 107, 107),
+    rgb(31, 30, 30),
+    black
+  );
+
+  text-align: center;
+  padding: 1rem;
+}
+
+#displayP > img {
+  width: 25rem;
+  height: 50em;
+}
+
+#displayP > p {
+  font-size: 1.3rem;
+  color: aliceblue;
+}
